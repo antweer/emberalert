@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v0.36.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+<title>Map of Fire</title>
+<body>
+
+<div id='map' style='width: 400px; height: 300px;'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiYW50d2VlciIsImEiOiJjajIzcm1hbzgwMDBsMzNxZnc1Nm1zZmJiIn0.1Kv_tvKWWMGf87Xds_gpjw';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/mapbox/streets-v9'
+});
+</script>
+
+</body>
+
+</html>
+
+
