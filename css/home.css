@@ -1,0 +1,41 @@
+body{
+  
+}
+.nav{
+  background-color:#6c6c6c;
+  overflow:hidden;
+  color:#fd5f00;
+}
+.nav a{
+  float:left;
+  display:block;
+  color:green;
+  text-align:center;
+  padding: 12px 14px;
+  text-decoration:none;
+  font-size:18px;
+  font-weight:bold;
+}
+form{
+  text-align:center;
+  padding:20px;
+}
+.formsection{
+  background-color:#a1a1a1;
+}
+button{
+  background-color:#fd5f00;
+  border:#2a2a2a;
+  border-radius:5px;
+  
+}
+input{
+  ;
+}
+.title-info{
+  text-align:center;
+  padding: 20px;
+}
+@media screen and (max-width: 600px){
+  .nav a:not(:first-child){display:none;}
+}
