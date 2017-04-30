@@ -1,4 +1,4 @@
-var dataUrl = 'github.com/antweer/spaceapps2017-firemap/data/MODIS_C6_Global_24h.csv';
+var dataUrl = 'data/MODIS_C6_Global_24h.csv';
 var maxZoom = 9;
 var fieldSeparator = ',';
 var baseUrl = 'https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png';
