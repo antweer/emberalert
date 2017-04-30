@@ -44,6 +44,9 @@ input{
   text-align:center;
   padding: 20px;
 }
+ul {
+    list-style-position: inside;
+}
 @media screen and (max-width: 600px){
   .nav a:not(:first-child){display:none;}
 }
