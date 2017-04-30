@@ -1,6 +1,9 @@
 body{
   
 }
+h1{
+  text-indent: 15px; 
+}
 .nav{
   background-color:#6c6c6c;
   overflow:hidden;
@@ -9,7 +12,7 @@ body{
 .nav a{
   float:left;
   display:block;
-  color:green;
+  color:black;
   text-align:center;
   padding: 12px 14px;
   text-decoration:none;
