@@ -31,13 +31,13 @@ Some browsers do not allow XMLHttpRequests with the `file://` protocol so you'll
 $ python -m SimpleHTTPServer
 Serving HTTP on 0.0.0.0 port 8000 ...
 ```
-Then navigate to `http://localhost:8000` instead.
+Then navigate to `https://localhost:8000` instead.
 
 ### Thanks to...
 
 * [Leaflet](https://github.com/Leaflet/Leaflet)
 * [Leaflet.geoCSV](https://github.com/joker-x/Leaflet.geoCSV)
 * [Leaflet.markercluster](https://github.com/Leaflet/Leaflet.markercluster)
-* [Twitter Boostrap](http://twitter.github.io/bootstrap/)
-* [jQuery](http://jquery.com/)
+* [Twitter Boostrap](https://twitter.github.io/bootstrap/)
+* [jQuery](https://jquery.com/)
 

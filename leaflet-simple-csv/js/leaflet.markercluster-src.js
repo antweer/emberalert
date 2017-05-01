@@ -1358,7 +1358,7 @@ L.DistanceGrid.prototype = {
 
 /* Copyright (c) 2012 the authors listed at the following URL, and/or
 the authors of referenced articles or incorporated external code:
-http://en.literateprograms.org/Quickhull_(Javascript)?action=history&offset=20120410175256
+https://en.literateprograms.org/Quickhull_(Javascript)?action=history&offset=20120410175256
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -1379,7 +1379,7 @@ CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-Retrieved from: http://en.literateprograms.org/Quickhull_(Javascript)?oldid=18434
+Retrieved from: https://en.literateprograms.org/Quickhull_(Javascript)?oldid=18434
 */
 
 (function () {
@@ -1626,7 +1626,7 @@ L.MarkerCluster.include(!L.DomUtil.TRANSITION ? {
 } : {
 	//Animated versions here
 	SVG_ANIMATION: (function () {
-		return document.createElementNS('http://www.w3.org/2000/svg', 'animate').toString().indexOf('SVGAnimate') > -1;
+		return document.createElementNS('https://www.w3.org/2000/svg', 'animate').toString().indexOf('SVGAnimate') > -1;
 	}()),
 
 	_animationSpiderfy: function (childMarkers, positions) {
@@ -1678,8 +1678,8 @@ L.MarkerCluster.include(!L.DomUtil.TRANSITION ? {
 			}
 
 			//How this works:
-			//http://stackoverflow.com/questions/5924238/how-do-you-animate-an-svg-path-in-ios
-			//http://dev.opera.com/articles/view/advanced-svg-animation-techniques/
+			//https://stackoverflow.com/questions/5924238/how-do-you-animate-an-svg-path-in-ios
+			//https://dev.opera.com/articles/view/advanced-svg-animation-techniques/
 
 			//Animate length
 			var length = leg._path.getTotalLength();
@@ -1824,7 +1824,7 @@ L.MarkerClusterGroup.include({
 		if (L.Path.SVG && !L.Browser.touch) {
 			this._map._initPathRoot();
 			//Needs to happen in the pageload, not after, or animations don't work in webkit
-			//  http://stackoverflow.com/questions/8455200/svg-animate-with-dynamically-added-elements
+			//  https://stackoverflow.com/questions/8455200/svg-animate-with-dynamically-added-elements
 			//Disable on touch browsers as the animation messes up on a touch zoom and isn't very noticable
 		}
 	},
