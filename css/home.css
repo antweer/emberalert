@@ -4,21 +4,6 @@ body{
 h1{
   text-indent: 15px; 
 }
-.nav{
-  background-color:white;
-  overflow:hidden;
-  color:#fd5f00;
-}
-.nav a{
-  float:left;
-  display:block;
-  color:black;
-  text-align:center;
-  padding: 12px 14px;
-  text-decoration:none;
-  font-size:18px;
-  font-weight:bold;
-}
 form{
   text-align:center;
   padding:20px;

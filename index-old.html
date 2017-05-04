@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ember Alert - Don't Get Burned</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="http-equiv" content="Content-type: text/html; charset=UTF-8"/>
+
+    <link rel=icon href=/favicon.png>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <link href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+    <!--[if lte IE 8]><link rel="stylesheet" href="https://cdn.leafletjs.com/leaflet-0.4.5/leaflet.ie.css" /><![endif]-->
+    <link rel="stylesheet" href="css/MarkerCluster.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+    <!--[if lte IE 8]><link rel="stylesheet" href="../dist/MarkerCluster.Default.ie.css" /><![endif]-->
+    <link rel="stylesheet" href="css/leaflet.label.css" />
+    <link rel="stylesheet" href="css/screen.css" />
+    <link rel="stylesheet" href="css/home.css" />
+
+</head>
+<body>
+    <div class="nav" id="headnav">
+    <h1>
+        <img src="logo.png" style="width:100px;height:100px;">
+        EMBER ALERT
+    </h1>
+    <a href="#home">Home</a>
+    <a href="#aboutus">About Us</a>
+    </div>
+    </div>
+    <div id="map"></div>
+    <div id="filter-container">
+        <form class="form-search" class="noSelect" onSubmit="addCsvMarkers(); return false;">
+            <a href="#" id="clear" class="leaflet-popup-close-button">&#215;</a>
+            <div class="input-append">
+                <input type="text" id="filter-string" class="input-medium search-query search-box" autocomplete="off">
+                <button type="submit" class="btn search-box"><i class="icon-search"></i></button>
+                <!-- <span class="add-on">
+                </span> -->
+            </div>
+        </form>
+        <div id="search-results" class="leaflet-control-attribution leaflet-control pull-right"></div>
+    </div>
+    <div class="formsection">
+    <form class="alerts" id="contact-form" action="/" method="post">
+        <h3>WANT ALERTS?</h3>
+        <div>
+        <label>
+    <span>Email</span>
+    <input placeholder="john.doe@google.com" type="text">
+    </label>
+        </div>
+        <div>
+        <label>
+        <span>Phone</span>
+        <input placeholder="johndoe.com" type="text">
+    </label>
+        </div>
+        <div><button name="submit" type="submit" id="contact-submit">Submit</button></div>
+    </form>
+    <form class="report" id="contact-form" action="/" method="post">
+    <h3>REPORT FIRE</h3>
+    <div><label>
+        <span>Location</span>
+        <input placeholder="johndoe.com" type="text">
+    </label></div>
+    <div><label>
+        <span>Picture</span>
+        <input type="file" id="fileinput" />
+    </label></div>
+    <div><button name="submit" type="submit" id="contact-submit">Submit</button></div>
+    </form>
+    </div>
+
+    <div class="container-info">
+    <h2 class="title-info">FIRE SAFETY</h2>
+    <p>
+    <ul>
+        <li>Fill as many containers (pools, hot tubs, garbage cans, etc. with water).</li>
+        <li>Place lawn sprinklers on the roof and near any above-ground fuel tanks.</li>
+        <li>Wet the roof.</li>
+        <li>Place a ladder against the side of the house.</li>
+        <li>Turn on as many lights in the house as possible. This increases the houses's visibility through smoke.</li>
+        <li>Close windows and doors but leave them unlocked for firefighters' easy access</li>
+    </ul>
+    </p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" ></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+    <script src="js/leaflet.markercluster.js"></script>
+    <script src="js/leaflet.geocsv.js"></script>
+    <script src="js/leaflet.label.js"></script>
+    <script src="config.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
